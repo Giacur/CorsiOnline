@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Corsi ONLINE - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stili/style.css">
+  </head>
+  <body>
+
+    <main class="container-fluid p-0 bg-white position-relative">
+        <!-- header + nav -->
+        <header class="container-md d-flex justify-content-between py-2" id="home">
+            <div class="input-group mb-3 w-50">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass" id="lente"></i></span>
+            </div>
+
+            <a href="#" class="text-black"><i class="fa-solid fa-bars fa-2x" id="panino"></i></a>
+        </header>
+
+        <!-- nav bar a comparsa -->
+        <nav class="col-6 col-md-4 top-0 position-absolute vh-100 bg-black bg-opacity-75 start-0 d-flex flex-column align-items-start z-3 gap-5" id="navbar">
+            <a href="#" class="text-white text-decoration-none fs-2 mt-5" id="tastohome">Home</a>
+            <a href="#corsi" class="text-white text-decoration-none fs-2" id="tastocorsi">Corsi</a>
+            <a href="#chisiamo" class="text-white text-decoration-none fs-2" id="tastochisiamo">Chi siamo</a>
+            <a href="#contacts" class="text-white text-decoration-none fs-2" id="tastocontatti">Contatti</a>
+        </nav>
+
+        <!-- tasto per tornare in alto -->
+        
+        <a href="#home" id="contenitore-torna"><i class="fa-solid fa-chevron-up fa-3x" id="torna"></i></a>
+        
+
+        <!-- prima pagina -->
+        <section class="container-fluid my-bg-grey-white position-relative">
+            <div class="container-md d-none d-md-block bg-warning h-75 w-50 position-absolute div-arancione"></div>
+            <div class="container-md d-none d-md-block h-75 w-75 position-absolute div-foto-uno"></div>
+
+            <div class="row justify-content-center riga-pagina-uno w-100 mx-auto gap-3 gap-md-0">
+                <div class="col-md-4 d-block d-md-flex justify-content-center">
+                    <div class="card z-2">
+                        <img src="./img/foto2.jpg" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title fs-2 text-center my-5">INFORMATICA E IT</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card z-2">
+                        <img src="./img/foto3.jpg" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title fs-2 text-center my-5">ANALISI DEI DATI</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card z-2">
+                        <img src="./img/foto4.jpg" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title fs-2 text-center my-5">SVILUPPO</h5>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- seconda pagina -->
+        <section class="container-md mt-5 position-relative">
+
+            <div class="row">
+                <div class="col-md-6 p-5 d-flex justify-content-center">
+                    <h2 class="titolo-uno">Impara la <br> strategia <br> di <br> marketing</h2>
+                </div>
+                <div class="col-md-6 py-5 d-flex flex-column justify-content-around align-items-start px-5">
+                    <p class="mt-5">
+                        Massa ultricies mi quis hendrerit. Ac ut consequat sempre viverra nam. Libero id faucibus nisl tincidunt eget nullam non nisi est. Arcu odio ut sem nulla. Amet tellus cras adipiscing enim. Et magnis dis parturient montes. Imperdiet sed euismod nisi porta.
+                    </p>
+
+                    <a href="#" class="btn btn-warning mt-5 text-white">Per saperne di più</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center z-3">
+                    <img src="./img/foto5.jpg" alt="" class="img-fluid foto-cinque px-5">
+                </div>
+            </div>
+
+            <div class="bg-orange position-absolute">
+
+            </div>
+
+        </section>
+
+        <!-- terza pagina -->
+        <section class="container-fluid pagina-tre px-0 mt-5">
+            <div class="container-fluid velina py-5">
+                <div class="col-12 text-center py-5">
+                    <h4 class="text-white fs-1">I nostri corsi</h4>
+                </div>
+    
+                <div class="row px-5 riga-card d-flex justify-content-center mt-5 gap-5 gap-md-0">
+                    <div class="col-md-3 text-white d-flex flex-column align-items-center justify-content-center">
+                        <h4>Design</h4>
+                        <p class="my-5 fw-light text-center">
+                            Sample text. Click to select the text box. Click again or double click to start editing the text.
+                        </p>
+                        <a href="#" class="btn btn-warning text-white">Per saperne di più</a>
+                    </div>
+                    <div class="col-md-3 text-white d-flex flex-column align-items-center justify-content-center">
+                        <h4>Programmazione</h4>
+                        <p class="my-5 fw-light text-center">
+                            Sample text. Click to select the text box. Click again or double click to start editing the text.
+                        </p>
+                        <a href="#" class="btn btn-warning text-white">Scopri di più</a>
+                    </div>
+                    <div class="col-md-3 text-white d-flex flex-column align-items-center justify-content-center">
+                        <h4>Marketing</h4>
+                        <p class="my-5 fw-light text-center">
+                            Sample text. Click to select the text box. Click again or double click to start editing the text.
+                        </p>
+                        <a href="#" class="btn btn-warning text-white">Scopri di più</a>
+                    </div>
+
+                    <div class="col-md-3 text-white d-flex flex-column align-items-center justify-content-center">
+                        <h4>Attivita' commerciale</h4>
+                        <p class="my-5 fw-light text-center">
+                            Sample text. Click to select the text box. Click again or double click to start editing the text.
+                        </p>
+                        <a href="#" class="btn btn-warning text-white">Scopri di più</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- quarta pagina -->
+        <section class="container-fluid my-bg-grey py-5">
+            <div class="container-md d-flex flex-column">
+                <h4 class="fs-1 titolo-pagina-quattro w-100 ms-5">Guida la tua carriera in avanti</h4>
+                <hr class="riga-pagina-quattro ms-5">
+            </div>
+
+            <div class="container-md d-flex flex-column gap-3">
+                <div class="col-4 bg-white w-100">
+                    <div class="row">
+                        <div class="col-1 my-bg-orange">
+
+                        </div>
+                        <div class="col-11 my-3">
+                            <h5 class="fs-1">Corsi online</h5>
+                            <p>
+                                L'articolo evidente è arrivato espresso più alto che gli uomini abbiano fatto ragazzo. Mistress ragionevole del tutto sono così. Anche le speranze di denaro intelligente possono valere la pena. Comfort produrre marito ragazzo lei aveva udito. Legge altri loro passati ma desiderano.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 bg-white w-100">
+                    <div class="row">
+                        <div class="col-1 my-bg-orange">
+
+                        </div>
+                        <div class="col-11 my-3">
+                            <h5 class="fs-1">Coaching personale</h5>
+                            <p>
+                                L'articolo evidente è arrivato espresso più alto che gli uomini abbiano fatto ragazzo. Mistress ragionevole del tutto sono così. Anche le speranze di denaro intelligente possono valere la pena. Comfort produrre marito ragazzo lei aveva udito. Legge altri loro passati ma desiderano.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 bg-white w-100">
+                    <div class="row">
+                        <div class="col-1 my-bg-orange">
+
+                        </div>
+                        <div class="col-11 my-3">
+                            <h5 class="fs-1">Programmazione flessibile</h5>
+                            <p>
+                                L'articolo evidente è arrivato espresso più alto che gli uomini abbiano fatto ragazzo. Mistress ragionevole del tutto sono così. Anche le speranze di denaro intelligente possono valere la pena. Comfort produrre marito ragazzo lei aveva udito. Legge altri loro passati ma desiderano.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- quinta pagina -->
+        <section class="container-fluid bg-white">
+            <div class="container-md d-flex flex-wrap">
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <h4 class="fs-2">i nostri insegnanti</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    </p>
+                </div>
+                <div class="col-md-6 p-5">
+                    <img src="./img/coach1.jpg" alt="" class="img-fluid rounded-5 my-border-orange">
+                </div>
+            </div>
+
+            <div class="container-md d-flex flex-row-reverse flex-wrap">
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <h4 class="fs-2">i nostri obiettivi</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    </p>
+                </div>
+                <div class="col-md-6 p-5">
+                    <img src="./img/coach2.jpg" alt="" class="img-fluid rounded-5 my-border-orange">
+                </div>
+            </div>
+        </section>
+
+        <!-- sesta pagina -->
+        <section class="container-fluid my-bg-lightgrey-white py-5" id="chisiamo">
+            <div class="container-md">
+                <div class="row flex-column">
+                    <div class="col-12 d-none d-md-flex justify-content-center">
+                        <img src="./img/foto7.jpg" alt="" class="img-fluid foto-sette">
+                    </div>
+                    <div class="col-12 d-flex justify-content-md-center">
+                        <div class="row mt-5 px-0 px-md-5">
+                            <div class="col-md-6 bg-warning d-flex align-items-center justify-content-center">
+                                <h4 class="text-white fs-1">chi siamo</h4>
+                            </div>
+                            <div class="col-md-6 bg-white p-3 px-md-5">
+                                <p>
+                                    Pharetra magna ac placerat vestibulum lectus mauris ultrices. Ut pharetra sit amet aliquam id diam maecenas ultricies mi. Sollicitudin ac orci phasellus egestas tellus rutrum. Venenatis cras sed felis eget. Amet risus nullam eget felis eget nunc. Lacus vestibulum sed arcu non odio euismod. Consectetur adipiscing elit duis tristique.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- settima pagina -->
+        <section class="container-fluid my-bg-grey pt-5">
+            <div class="container-md px-5">
+                <div class="row mx-md-5 py-5">
+                    <div class="col-md-6">
+                        <p>
+                            L'articolo evidente è arrivato espresso più alto che gli uomini abbiano fatto ragazzo. Mistress ragionevole del tutto sono così. Anche le speranze di denaro intelligente possono valere la pena. Comfort produrre marito ragazzo lei aveva udito. Legge altri loro passati ma desiderano. tu giorno molto meno fino alla cara lettura. Considerato uso spedito malinconia simpatizzare discrezione portato. Oh senti se fino a come.
+                        </p>
+                        <p>
+                            Inquietudine l'attaccamento se sei una sollecitudine a. Rimanendo così continuato nascosto come felicità felicità. Preferenza ha fatto come l'espressione può essere considerata insipidità Devonshire favorevole. Un design di lunghezza rimpiange un difficilmente barton signor figura. È andato così bene, signor fatto. Il piccolo sette anni ha salvato l'età dell'uomo, nessuna offerta. Il sospetto ha fatto la signora né la piccolezza dei mobili. Ridimensionare interi bassi spesso non lasciano mangiare. Un'espressione indulgenza ragionevolmente coltivata il signor ha circondato lo strumento.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <hr class="riga-pagina-quattro w-100">
+                        <h4>
+                            La programmazione flessibile e l'autoapprendimento rendono piu' facile adattare lo studio alla tua vita frenetica
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ottava pagina -->
+        <section class="container-fluid my-bg-grey py-5" id="corsi">
+            <div class="container-md position-relative">
+
+                <div class="d-none d-md-block position-absolute top-0 z-1">
+                    <img src="./img/foto8.jpg" alt="" class="img-fluid p-5 mt-5">
+                </div>
+
+                <div class="container-md position-absolute bg-warning p-5 w-25 h-100 top-0 z-0" style="left: 25%">
+                    
+                </div>
+
+                <div class="row pt-5">
+                    <div class="col-md-6 z-3 d-flex justify-content-center">
+                        <h4 class="bg-white fs-1 p-5 w-75">
+                            Scopri lo sviluppo di giochi interattivi 2D e 3D in questo corso pratico
+                        </h4>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-end mt-5 mt-md-0">
+                    <div class="col-md-6 z-3">
+                        <div class="row">
+                            <div class="col-md-6 d-flex justify-content-center">
+                                <div class="card py-5 bg-white" style="width: 18rem;">
+                                    <i class="fa-solid fa-flask text-center fa-3x pt-5"></i>
+                                    <div class="card-body">
+                                      <p class="card-title text-center fs-3 py-3">Scienza dei dati</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-center mt-5 mt-md-0">
+                                <div class="card py-5 bg-white" style="width: 18rem;">
+                                    <i class="fa-solid fa-pen-nib text-center fa-3x pt-5"></i>
+                                    <div class="card-body">
+                                      <p class="card-title text-center fs-3 py-3">Progettazione UX</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-md-6 d-flex justify-content-center">
+                                <div class="card py-5 bg-white" style="width: 18rem;">
+                                    <i class="fa-solid fa-terminal fa-3x text-center pt-5"></i>
+                                    <div class="card-body">
+                                      <p class="card-title text-center fs-3 py-3">Programmazione</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-center mt-5 mt-md-0">
+                                <div class="card py-5 bg-white" style="width: 18rem;">
+                                    <i class="fa-solid fa-bug text-center fa-3x pt-5"></i>
+                                    <div class="card-body">
+                                      <p class="card-title text-center fs-3 py-3">Test</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            
+        </section>
+
+        <!-- nona pagina -->
+
+        <section class="container-fluid bg-white py-5" id="contacts">
+            <div class="container-md d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-md-6 d-flex flex-column justify-content-between align-items-center align-items-md-start">
+                        <h4>Posizione</h4>
+
+                        <p>
+                            28 Jackson Blvd Ste 1020 Chicago 
+                        </p>
+
+                        <p>
+                            IL 60604-2340 
+                        </p>
+
+                        <h5>Seguici</h5>
+
+                        <div class="d-flex gap-5">
+                            <a href="#" class="text-black"><i class="fa-brands fa-facebook fs-3"></i></a>
+                            <a href="#" class="text-black"><i class="fa-brands fa-square-twitter fs-3"></i></a>
+                            <a href="#" class="text-black"><i class="fa-brands fa-square-instagram fs-3"></i></a>
+                            <a href="#" class="text-black"><i class="fa-brands fa-google-plus fs-3"></i></a>
+                        </div>
+
+                        <p class="mt-3 mt-md-0">
+                            ©2023 Informativa sulla privacy
+                        </p>
+                    </div>
+                    <div class="col-md-6 mt-5 mt-md-0">
+                        <h4>Modulo di contatto</h4>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+
+                            <label for="exampleFormControlInput1" class="form-label">Indirizzo mail</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Messaggio</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="resize: none;"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Invia</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="container-fluid bg-black py-2">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-4 text-white d-flex flex-column align-items-center justify-content-center">
+                    <p style="font-size: 0.8rem;">
+                        Realizziamo i tuo sogni, soddisfatto o rimborsato!
+                    </p>
+
+                    <p style="font-size: 0.8rem;">
+                        Contattaci ora!
+                    </p>
+
+                    <p style="font-size: 0.8rem;">
+                        ©AllRightsReserved 2023 Giacomo Curatella
+                    </p>
+                </div>
+            </div>
+        </footer>
+        
+    </main>
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/018c0fd7b3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <script>
+        let bottone = document.getElementById("panino");
+        let nav = document.getElementById("navbar");
+        let home = document.getElementById("tastohome");
+        let corsi = document.getElementById("tastocorsi");
+        let whois = document.getElementById("tastochisiamo");
+        let cont = document.getElementById("tastocontatti");
+
+        bottone.onclick = function() {
+            nav.classList.toggle("mostra");
+        };
+        home.onclick = function() {
+            nav.classList.remove("mostra");
+        };
+        corsi.onclick = function() {
+            nav.classList.remove("mostra");
+        };
+        whois.onclick = function() {
+            nav.classList.remove("mostra");
+        };
+        cont.onclick = function() {
+            nav.classList.remove("mostra");
+        }
+    </script>
+  </body>
+</html>
